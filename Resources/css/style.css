@@ -1,0 +1,120 @@
+h2{
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 111.52%;
+
+/* identical to box height, or 54px */
+    text-align: center;
+    letter-spacing: 0.105em;
+
+    /* DV - Accent 2 */
+    color: #063160;
+    
+}
+
+.services{
+    margin-top: 5%;
+}
+
+.myButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.viewMore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 1%;
+    gap: 0.25rem;
+
+    width: 6rem;
+    height: 1.9rem;
+
+    /* DV - Primary 1 */
+    background: rgba(255, 97, 100, 0.8);
+
+    /* DV - Accent 2 */
+    border: 1.20363px solid #063160;
+    border-radius: 3.61089px;
+    padding: 2%;
+}
+
+
+@media only screen and (min-width: 576px){
+    .card{
+        width: 70%;
+    }
+}
+
+
+
+.contactUs>h3{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #063160;
+
+}
+.contactUs p{
+    font-family: 'Lato';
+    text-align: center;
+    font-size: 1.1rem;
+    color: #063160;
+    margin-top: 2%;
+    font-style: normal;
+    letter-spacing: 0.155rem;
+}
+
+
+
+
+#lightbox {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+  }
+  
+  #lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    padding: 4px;
+    background-color: black;
+    border: 2px solid white;
+  }
+
+
+  #breathe{
+    animation: textBreathe 5s ease-in-out 0s infinite normal none;
+}
+
+  @keyframes textBreathe {
+    0.0%{
+        color: #063160;
+        font-size: 1.5rem;
+    }
+    100%{
+        color: #063160;
+        font-size: 1.5rem;
+    }
+    50.3%{
+        color: #000000;
+        font-size: 1.5rem;
+        transform: scale(1.2);
+    }
+} 
